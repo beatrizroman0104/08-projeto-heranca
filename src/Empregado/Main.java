@@ -9,8 +9,8 @@ public class Main {
         empregado[2] = new EmpregadoComissionado(3, "Patricia", 700000, 23);
         empregado[3] = new EmpregadoHorista(4, "Maria", 200, 800);
 
-        // for tradicional
-        /*
+        /* for tradicional
+
         for(int i = 0; i < empregado.length; i++){
             System.out.println(empregado[i].matricula);
             System.out.println(empregado[i].nome);
@@ -18,7 +18,7 @@ public class Main {
         }
         */
 
-        // for genérico
+        // for genérico pois todos os lgares do vetor vão ser preenchidos
 
         for (Empregado e : empregado){
             System.out.println(e.matricula);
